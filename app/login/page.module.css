@@ -1,0 +1,62 @@
+.loginCard {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 950px;
+    margin: 100px auto;
+}
+
+.loginForm {
+    padding: 40px;
+}
+.loginTitle {
+    color: #222;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 55px;
+    text-transform: uppercase;
+}
+.loginDesc {
+    font-size: 12px;
+    margin-top: 0px;
+    color: gray;
+}
+.loginImage {
+    background-color: #367DD9;
+    border-radius: 10px;
+    padding: 70px;
+}
+
+.inputField {
+    outline: .5px solid #ccc;
+    border: 0px;
+    border-radius: 10px;
+    height: 35px;
+    width: 300px;
+}
+.inputLabel {
+    position: absolute;
+    background-color: #fff;
+    padding: 2px;
+    top: -12px;
+    left: 10px;
+}
+.formField {
+    position: relative;
+    margin-bottom: 30px;
+}
+.signupBtn {
+    width: 300px;
+    /* height: 35px; */
+    border-radius: 10px;
+    border: 0px;
+    background-color: #367DD9;
+    color: #fff;
+    font-weight: bolder;
+    /* font-size: 18px; */
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 12px;
+}

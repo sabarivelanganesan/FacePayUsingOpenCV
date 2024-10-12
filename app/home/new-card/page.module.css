@@ -1,0 +1,53 @@
+
+.cardForm {
+    border: 1px solid #ccd;
+    width: 550px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.inputField, .expField {
+    outline: .5px solid #367DD9;
+    border: 0px;
+    border-radius: 10px;
+    height: 40px;
+}
+.expField {
+    width: 50px;
+}
+.inputLabel {
+    background-color: #fff;
+    padding: 2px;
+    margin-bottom: 5px;    
+}
+.formField {
+    margin-bottom: 25px;
+}
+
+.expBar {
+    width: 2px;
+    height: 30px;
+    background-color: #367DD9; /* Color of the slash */
+    transform: rotate(20deg); /* Rotate the element to make it look like a slash */
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.formGroup {
+    display: flex;
+    gap: 100px
+}
+
+.formButton, .cancelButton {
+    background-color: #367DD9;
+    border: none;
+    padding: 15px 50px;
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cancelButton {
+    background-color: #ccd;
+    color: #222;
+}
